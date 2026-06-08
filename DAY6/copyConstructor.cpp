@@ -4,8 +4,8 @@ using namespace std;
 class Student
 {
 public:
-    string name="sakshi";
-    int age=19;
+    string name = "sakshi";
+    int age = 19;
     void show()
     {
         cout << "name :" << name << endl;
@@ -21,7 +21,5 @@ int main()
     Student s2(s1);
     s1.show();
 
-
-    
     return 0;
 }
